@@ -4,9 +4,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container {
+  padding: 96px 109px 64px 129px;
+}
 .box-container {
   padding: 79px 175px 78px 160px;
-  margin: 96px 285px 70px 273px;
+  margin-bottom: 170px;
   /* border-radius: 20px 129px 20px 20px; */
   border-radius: 0px 24px 0px 50px;
   display: inline-block;
@@ -72,9 +75,7 @@
   font-weight: 600;
   line-height: normal;
 }
-.main-container {
-  margin-left: 129px;
-}
+
 .position-container {
   position: absolute;
 }
