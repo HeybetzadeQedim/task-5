@@ -63,9 +63,21 @@
   line-height: normal;
 }
 .button-container p {
- 
+  margin-top: 80px;
+  margin-left: 24px;
+  padding: 22px 50px 23px 50px;
+  border-radius: 10px;
+  background-color: #00a651;
+  display: inline-block;
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.main-container .main-box {
+.main-container .main-box{
   display: flex;
   justify-content: space-between;
 }
@@ -82,7 +94,7 @@
   font-weight: 700;
   line-height: 102.5%;
 }
-.position-container h2 {
+.position-container h2{
   margin-left: 40px;
 }
 .main-container p {
@@ -93,12 +105,33 @@
   font-weight: 600;
   line-height: 124.5%;
 }
-ul h2 {
-  margin-bottom: 47px;
+.li-container {
+  /* margin-left: 400px; */
 }
-
-ul li {
-  margin-bottom: 23px;
+.li-container ul {
+  /* display: flex; */
+}
+.li-container li {
+  list-style-type: none;
+  color: var(--black, #080809);
+  font-family: Open Sans;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124.5%;
+}
+.li-container li:nth-child(2) {
+  /* margin-left: 102px;
+  margin-right: 102px; */
+}
+.li-container-2 {
+  margin-top: 45px;
+  /* margin-left: 400px; */
+}
+.li-container-2 ul {
+  /* display: flex; */
+}
+.li-container-2 li {
   list-style-type: none;
   color: var(--TEXT-CLR, #5e6282);
   font-family: Open Sans;
@@ -107,7 +140,64 @@ ul li {
   font-weight: 400;
   line-height: 124.5%;
 }
-
+.li-container-2 li:first-child {
+  margin-right: 50px;
+}
+.li-container-2 li:nth-child(2) {
+  margin-left: 102px;
+  margin-right: 102px;
+}
+.li-container-3 {
+  margin-top: 18px;
+  /* margin-left: 400px; */
+}
+.li-container-3 ul {
+  /* display: flex; */
+}
+ ul li  {
+  list-style-type: none;
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%;
+}
+.li-container-3 li:first-child {
+  margin-right: 35px;
+}
+.li-container-3 li:nth-child(2) {
+  margin-left: 102px;
+  margin-right: 140px;
+}
+.li-container-4 {
+  margin-top: 18px;
+  /* margin-left: 400px; */
+}
+.li-container-4 ul {
+  /* display: flex; */
+}
+.li-container-4 li {
+  list-style-type: none;
+  color: var(--TEXT-CLR, #5e6282);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 124.5%;
+}
+.li-container-4 li:first-child {
+  margin-right: 35px;
+}
+.li-container-4 li:nth-child(2) {
+  margin-left: 102px;
+  margin-right: 120px;
+}
+.last-container {
+  position: absolute;
+  top: 570px;
+  left: 1200px;
+}
 .last-container p {
   /* margin-right: 160px; */
   margin-bottom: 22px;
@@ -120,20 +210,36 @@ ul li {
   line-height: 124.5%;
   letter-spacing: 0.1px;
 }
-.last-container .circle-box img:first-child {
+.last-container img:first-child {
   width: 58px;
   height: 58px;
 }
-.last-container .circle-box img:nth-child(2) {
+.last-container img:nth-child(2) {
   width: 63px;
   height: 63px;
 }
-.last-container .circle-box img:nth-child(3) {
+.last-container img:nth-child(3) {
   /* margin-right: 150px; */
   width: 58px;
   height: 58px;
 }
-
+.last-container img:nth-child(4) {
+  width: 141px;
+  height: 49px;
+}
+.last-container img:last-child {
+  /* margin-right: 40px; */
+  width: 141px;
+  height: 49px;
+}
+.footer-container p {
+  color: var(--3rd, #e5e5e5);
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .footer-box p {
   margin-top: 120px;
   margin-bottom: 64px;
@@ -145,50 +251,20 @@ ul li {
   font-weight: 400;
   line-height: 124.5%;
 }
-
-.circle-box {
+.flex-box {
   display: flex;
 }
-form{
-  display: flex;
+.flex-box-2 {
+  margin-right: 22px;
+  margin-left: 22px;
 }
-
-form button{
-  margin-left: 24px;
-  padding: 22px 50px 23px 50px;
-  border-radius: 10px;
-  background-color: #00a651;
-  display: inline-block;
-  color: var(--white, #fff);
-  text-align: center;
-  font-family: Open Sans;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  border: none;
+.flex-box-3 {
+  margin-right: 22px;
 }
-form .input-box{
-  width: 421px;
-  padding: 25px 31px;
-
-  border-radius: 10px;
-background: var(--white, #FFF);
-display: flex;
-align-items: center;
-
+.flex-box-4 {
+  margin-left: 22px;
+  margin-right: 22px;
 }
-form input{
-width: 100%;
-height: 100%;
-border: none;
-margin-left: 10px;
-
-}
-input:focus  {
-border: none;
-/* border: 2px solid red; */
-outline: none;
-
-
+.flex-box-5 {
+  margin-right: 22px;
 }

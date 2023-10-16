@@ -187,8 +187,6 @@ margin-left: 10px;
 }
 input:focus  {
 border: none;
-/* border: 2px solid red; */
-outline: none;
-
+border: 2px solid red;
 
 }

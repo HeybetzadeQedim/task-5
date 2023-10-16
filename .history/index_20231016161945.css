@@ -170,8 +170,9 @@ form button{
 }
 form .input-box{
   width: 421px;
-  padding: 25px 31px;
-
+  /* padding: 25px 31px; */
+  padding-left:31px ;
+  pa
   border-radius: 10px;
 background: var(--white, #FFF);
 display: flex;
@@ -182,13 +183,4 @@ form input{
 width: 100%;
 height: 100%;
 border: none;
-margin-left: 10px;
-
-}
-input:focus  {
-border: none;
-/* border: 2px solid red; */
-outline: none;
-
-
 }
